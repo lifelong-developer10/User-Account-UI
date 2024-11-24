@@ -1,0 +1,267 @@
+
+/* //satr,login,forgetpasscss */
+.loginpage {
+    background-image: url('Logpage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.getbtnstart{
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  color: #fff;
+}
+
+.forgetpasspage{
+    background-image: url('forgetpasspage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.getstart{
+  background-image: url('getstarttemplate.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.logincontent{
+    padding-top: 1%;
+}
+
+.fontborder{
+   text-shadow: #ffffff;
+}
+.containerstart2{
+  padding-top:10%;
+
+}
+.mywin{
+  font-size: smaller;
+}
+.getstart1{
+ 
+  margin-left: 4%;
+  border-radius:30px ;
+ 
+  
+}
+.fontlog{
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    text-decoration:none;
+}
+
+ 
+.input-container1 {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+
+  .input-container1 i {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 18px; 
+    color: #000000; 
+  }
+  
+ 
+  .input-container1 input {
+    padding-left:10px; 
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 30px; 
+    outline: none; 
+  }
+  
+  .input-container1 input::placeholder {
+    color: #8f8a8a;
+    text-align: center;
+    font-size: small;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  .stars{
+    color:rgb(4, 168, 4);
+  }
+  .btnlogin{
+    background-color: #ffffff;
+    margin-left: 35%;
+    border-radius: 12px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+
+  }
+  .containerstart{
+    padding-top: 65%;
+    padding-left: 3% ;
+  }
+
+/* createaccount css */
+.signup{
+  padding-top: 3%;
+  font-size: larger;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+
+}
+.accountcreate{
+   text-align: center;
+  color:#8f8a8a;
+  font-size: xx-small;
+}
+.creteacctext{
+  font-size: xx-small;
+  color: #5c5a5a;
+
+}
+.accountcontent{
+  padding-top: 10%;
+}
+  .accountcontent2{
+  padding-left: 15%;
+}
+.createicon i {
+  position: relative;
+}
+
+.createicon {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.createicon svg{
+  position: absolute;
+            left: 10px; 
+            top: 50%; 
+            transform: translateY(-50%);
+}
+#accountinputtext{
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-field3 {
+  width: 100%;
+  padding: 10px;
+  text-align:center;
+  margin-left: 3%;
+}
+.accountlogtxt{
+ font-size: x-small;
+  padding-right: 60%;
+  text-decoration: none;
+  color:rgb(25, 158, 7);
+}
+.btncreateacc{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: 600;
+  color: #ffffff;
+
+}
+
+/* //signin css// */
+.btnsignin{
+  background-color: rgb(128, 219, 36);
+  font-weight: 800;
+}
+.downlosdtxt{
+  padding-right: 30%;
+  font-size: xx-small;
+  text-decoration: none;
+  color:#000000;
+}
+.recoveracc{
+  font-size: xx-small;
+  color:#8f8a8a;
+}
+.recaccount{
+  font-size: x-small;
+  color:rgb(19, 19, 184);
+  text-decoration: none;
+  text-align: end;
+  font-weight: 800;
+}
+@media (max-width: 500px) {
+  .createaccountbodyy{
+   padding-top: 20%;
+  }
+}
+@media (max-width: 500px) {
+  .logincontent {
+    padding-top: 45%;
+  }
+}
+@media (min-width: 500px) {
+  .logincontent {
+    padding-top: 13%;
+  }
+}
+@media (max-width: 350px) {
+  .logincontent1 {
+    padding-top: 58%;
+  }
+}
+@media (min-width:400px) {
+  .logincontent1 {
+    padding-top: 45%;
+  }
+}
+
+@media (min-width:800px) {
+  .logincontent1 {
+    padding-top: 15%;
+  }
+}
+@media(max-width:400px){
+  .containerstart2{
+padding-top: 70%;
+  }
+}
+
+@media(max-width:700px){
+  .containerstart2{
+padding-top: 70%;
+  }
+}
+
+@media(min-width:700px){
+  .containerstart2{
+padding-top: 20%;
+  }
+}
