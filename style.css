@@ -265,3 +265,12 @@ padding-top: 70%;
 padding-top: 20%;
   }
 }
+
+.logincontent3{
+  padding-top: 15%;
+}
+@media (max-width: 500px) {
+  .logincontent3 {
+    padding-top: 58%;
+  }
+}
